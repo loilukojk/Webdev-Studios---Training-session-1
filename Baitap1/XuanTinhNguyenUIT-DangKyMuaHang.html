@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>    
+    <title>Đăng ký mua hàng - Xuân Tình Nguyện UIT</title>
+    
+    <style>
+        table {            
+            border-collapse: collapse;
+            padding: 5px;
+            margin: 50px auto;
+        }        
+    </style>
+
+</head>
+
+<body>
+
+    <a href="XuanTinhNguyenUIT-TrangChu.html"> Back </a>
+    
+    <form>
+    	<table>    	
+    		<tr>
+    			<th colspan="2">Đăng ký mua hàng </th>    			
+    		</tr>
+    		<tr>    			
+    			<td> Tài khoản: </td>
+    			<td> <input type="text" name="tai-khoan" placeholder="Nhập tài khoản :P"/> </td>	
+    		</tr>			
+			<tr>    			
+    			<td> Mật khẩu: </td>
+    			<td> <input type="Password" name="mat-khau" placeholder="Nhập mật khẩu :-))" /> </td>	
+    		</tr>
+    		<tr>
+    			<td> Số điện thoại: </td>
+    			<td> <input type="text" name="phone-number" placeholder="Cho xin số phone đê :3" /> </td>
+    		</tr>
+    		<tr>
+    			<td> Địa chỉ: </td>
+    			<td> 
+                    <label> <input type="radio" name="dia-chi" id="khu-a"/> KTX Khu A </label>
+    			    <label> <input type="radio" name="dia-chi" id="khu-b" /> KTX Khu B  </label>
+                </td>
+    		</tr>
+    		<tr>
+				<td> Mặt hàng muốn mua: </td>
+				<td> 
+                    <select name="kind-of-product"> 
+					<option value="mutdau"> Mứt dâu </option>
+					<option value="mutchuoi"> Mứt chuối </option>
+				    </select>
+                </td>
+    		</tr>			
+            <tr>
+                <td> Thời gian mong muốn nhận hàng:</td>
+                <td>
+                    <select name="time-receive">
+                        <option value="sang"> Buổi sáng </option>
+                        <option value="trua"> Buổi trưa </option>
+                        <option value="chieu"> Buổi chiều </option>
+                        <option value="toi"> Buổi tối </option>
+                        <option value="khuya"> 12 giờ khuya </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> Bạn có người yêu chưa? </td>
+                <td> 
+                    <label>
+                        <input type="checkbox" name="confirm"/> Có
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td> Ghi chú </td>
+                <td>
+                    <textarea cols="27" rows="5"></textarea> 
+                </td>
+            </tr>            
+			<tr>
+				<td colspan="2" align="center"> 
+                    <input type="submit" name="submit" value="Gửi yêu cầu"/>
+                </td>
+			</tr>
+    	</table>
+    </form>		    
+
+</body>
+</html
